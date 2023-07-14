@@ -1,4 +1,4 @@
-Este pequeno projeto corresponde ao frontend MVP da Sprint 1 da Disciplina Desenvolvimento Full Stack Basico - PUCRIO
+Este pequeno projeto corresponde ao frontend MVP da Disciplina Desenvolvimento Full Stack Basico - PUCRIO
 
 ORIENTAÇOES PARA RODAR O PROJETO FRONTEND
 
