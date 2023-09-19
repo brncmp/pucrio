@@ -2,22 +2,21 @@
   <v-container fluid>
     <v-row class="mt-n3">
       <v-col md6>
-        <StoreList />
+        <RequestsList />
       </v-col>
       <v-col md6>
-        <ReportsList />
+        
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import StoreList from './StoreList.vue'
-import ReportsList from './ReportsList.vue'
+import RequestsList from './RequestsList.vue'
 
 export default {
   components: {
-    StoreList, ReportsList
+    RequestsList
   },
 };
 </script>

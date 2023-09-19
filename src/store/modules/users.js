@@ -93,6 +93,15 @@ const actions = {
     
       return response
   },
+  async deleteUser ({ rootGetters }, { id } ) {
+    let url = process.env.VUE_APP_API_URL + '/users/' + id + '/'
+    let response = await axios
+      .delete(url,
+        { headers: rootGetters['account/getAuthHeader'], },
+      )
+    
+      return response
+  },
 }
 
 export default {

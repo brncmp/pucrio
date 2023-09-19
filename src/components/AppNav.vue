@@ -32,6 +32,14 @@
               <v-list-item-title>Products</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          <v-list-item to="/requests">
+            <v-list-item-action>
+              <v-icon>mdi-food-apple</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>Requests</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
         </template>
         <v-list-item>
           <v-list-item-content class="mt-1 text-sm-center font-weight-light">

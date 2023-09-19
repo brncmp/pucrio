@@ -4,6 +4,8 @@ import Vuex from 'vuex'
 import users from './modules/users'
 import store from './modules/store'
 import products from './modules/products'
+import requests from './modules/requests'
+import reports from './modules/reports'
 
 
 
@@ -14,5 +16,7 @@ export default new Vuex.Store({
     users: users,
     store: store,
     products: products,
+    requests: requests,
+    reports: reports,
   },
 })

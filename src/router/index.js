@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/HomePageView.vue'
 import Store from '../views/StorePageView.vue'
 import Products from '../views/ProductsPageView.vue'
+import Requests from '../views/RequestsPageView.vue'
 
 
 Vue.use(VueRouter)
@@ -22,6 +23,11 @@ const routes = [
     path: '/products',
     name: 'products',
     component: Products
+  },
+  {
+    path: '/requests',
+    name: 'requests',
+    component: Requests
   }
 ]
 

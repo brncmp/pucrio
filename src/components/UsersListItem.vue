@@ -60,6 +60,7 @@
       <v-card-actions>
         <v-btn text class="ml-2" @click="dialog = false">Fechar</v-btn>
         <v-spacer></v-spacer>
+        <v-btn class="ml-2" color="red white--text" @click="deleteUser(UsersListItem.id)">Deletar</v-btn>
         <v-btn class="ml-2" color="primary" @click="editar(UsersListItem.id)">Editar</v-btn>
         <v-dialog v-model="editarUserDialog" max-width="600px">
           <v-card>
@@ -189,6 +190,10 @@ export default {
       this.$emit('emitGetUsers')
       this.dialog = false
       this.editarUserDialog = false
+    },
+    async deleteUser (id) {
+      await this.$store.dispatch('users/deleteUser', { id})
+      this.$emit('emitGetUsers')
     },
   },
 };

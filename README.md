@@ -1,4 +1,4 @@
-Este pequeno projeto corresponde ao frontend MVP da Disciplina Desenvolvimento Full Stack Basico - PUCRIO
+Este pequeno projeto corresponde ao frontend MVP de Desenvolvimento Full Stack Basico - PUCRIO
 
 ORIENTAÇOES PARA RODAR O PROJETO FRONTEND
 
@@ -10,3 +10,10 @@ Executar o projeto: (garanta que a porta usada seja a mesma porta em que está r
 
 Acesse: (verifique a porta em que o projeto esta rodando no terminal)
     http://localhost:8080/
+
+Documentacao da API externa utilizada: 
+    https://rapidapi.com/trueway/api/trueway-matrix/pricing
+
+Docker:
+    docker build -t pucriofront .
+    docker run -d -p 8080:8080 pucriofront
